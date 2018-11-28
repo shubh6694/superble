@@ -1,0 +1,289 @@
+ RequestObjectLoginOrSignup requestObjectLoginOrSignup = new RequestObjectLoginOrSignup();
+        requestObjectLoginOrSignup.first_name = first_name;
+        requestObjectLoginOrSignup.last_name = last_name;
+        requestObjectLoginOrSignup.user_name = user_name;
+        requestObjectLoginOrSignup.email = email;
+        requestObjectLoginOrSignup.password = password;
+        requestObjectLoginOrSignup.imgFile = img;
+        requestObjectLoginOrSignup.public_id = public_id;
+        requestObjectLoginOrSignup.phash = phash;
+        requestObjectLoginOrSignup.device_id = deviceId;
+        requestObjectLoginOrSignup.referral_code = referral_code;
+
+for normal signup use @POST("/sessions")
+
+
+https://api-dev.superble.com/api/v1/sessions
+
+?first_name=mohit&last_name=tiwari&user_name=mkt&email=mohit@gmail.com&password=TechAdmin911
+
+ https://api-dev.superble.com/api/v1/sessions
+
+
+ {
+    "session_token": "7251da50-b864-4ee6-a468-6242496ebfb4",
+    "profile_object": {
+        "id": 2898,
+        "email": "mohit.tiwari1@techinfini.com",
+        "valid_email": true,
+        "user_name": "techinfini",
+        "first_name": "Techinfini",
+        "fb_user_id": null,
+        "instagram_user_id": null,
+        "pinterest_user_id": null,
+        "last_name": "test",
+        "gender": null,
+        "date_of_birth": null,
+        "country_name": null,
+        "points": 0,
+        "badge_name": "LEV1",
+        "confirmed_at": null,
+        "social": {},
+        "badge": {
+            "badge_id": 1,
+            "name": "LEV1",
+            "image_url": "https://api-dev.superble.com/images/lev1.png"
+        },
+        "bio": null,
+        "social_url": null,
+        "status": 0,
+        "referral_code": "bad58ad204",
+        "user_topics": [],
+        "minimum_topics": "3",
+        "likes_count": 0,
+        "products_count": 0,
+        "firebase_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay05YmcwdEBzdXBlcmJsZS1kZXYtYmI2ZTAuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay05YmcwdEBzdXBlcmJsZS1kZXYtYmI2ZTAuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTUxNzM4OTAwMiwiZXhwIjoxNTE3MzkyNjAyLCJ1aWQiOiIyODk4IiwiY2xhaW1zIjp7InByZW1pdW1fYWNjb3VudCI6ZmFsc2V9fQ.Eefs994O4KAO3aH03R48TMfh_QaM50bf4ohkXBvPFsvJl4cYb87-Zn5ps-BPewsZyLUnOD5tfhtiGlPDCqBde1rJE4dESHNrTREyKXeK2GcbXQ4DzivXkt2s-N74HE37pvf3YcE6JzqhwmMZs837_X-fx0kK9suvvUrjf7rs8GwyhbeBxL1x_ZDtVnmENI_vawTWgoN5k6Kfp1WyiuTjoFRzZO1d2HDBbpTzRzmv1TWNdIusapd0p8IDlhW-k_NR8q3m9dRVUjZHiJRBLCWUl-xQ9yAyAYh1bVGBJdC_PWYDA-_B78pK04uwBIQgGbj_XiG0GAwgYH_mOz7EdH8ngQ",
+        "current_country": null,
+        "product_owner_pv": 0,
+        "list_owner_pv": 0,
+        "page_views": 0,
+        "total_views": 0,
+        "draft_count": 0,
+        "product_draft_count": 0,
+        "discovery_draft_count": 0
+    },
+    "is_new_user": true
+}
+
+
+
+
+
+
+
+/////////////////////////////
+
+https://api-dev.superble.com/api/v1/sessions/?first_name=Techinfini&last_name=test&user_name=techinfini2&email=mohit.tiwari2@techinfini.com&password=TechAdmin911&imgFile=cdn.shopify.com/s/files/1/2312/3313/products/Trio-Kit_SM_large.png&public_id=123&phash=test&device_id=123&referral_code=321
+
+
+first_name: Techinfini
+last_name: test
+user_name: techinfini2
+email: mohit.tiwari2@techinfini.com
+password: TechAdmin911
+imgFile: cdn.shopify.com/s/files/1/2312/3313/products/Trio-Kit_SM_large.png
+public_id: 123
+phash: test
+device_id: 123
+referral_code : 321
+
+
+{
+    "session_token": "3c19a0c9-54b0-4dff-a636-82cedf885ce9",
+    "profile_object": {
+        "id": 2900,
+        "email": "mohit.tiwari2@techinfini.com",
+        "valid_email": true,
+        "user_name": "techinfini2",
+        "first_name": "Techinfini",
+        "fb_user_id": null,
+        "instagram_user_id": null,
+        "pinterest_user_id": null,
+        "last_name": "test",
+        "gender": null,
+        "date_of_birth": null,
+        "country_name": null,
+        "points": 0,
+        "badge_name": "LEV1",
+        "confirmed_at": null,
+        "social": {},
+        "badge": {
+            "badge_id": 1,
+            "name": "LEV1",
+            "image_url": "https://api-dev.superble.com/images/lev1.png"
+        },
+        "bio": null,
+        "social_url": null,
+        "status": 0,
+        "referral_code": "0217b9d622",
+        "user_topics": [],
+        "minimum_topics": "3",
+        "likes_count": 0,
+        "products_count": 0,
+        "firebase_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay05YmcwdEBzdXBlcmJsZS1kZXYtYmI2ZTAuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay05YmcwdEBzdXBlcmJsZS1kZXYtYmI2ZTAuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTUxNzM5OTI1MiwiZXhwIjoxNTE3NDAyODUyLCJ1aWQiOiIyOTAwIiwiY2xhaW1zIjp7InByZW1pdW1fYWNjb3VudCI6ZmFsc2V9fQ.2PIZK2-SWPEkAxbTES3UX2klPb8jtkySLp8oM5HyHkXGApQzMmtnIaaZnGJKf3yQ0RwmoNGfah9AIk7GFklj-Td5RL3fMH78Uu7ezAmqaro4IU4crX3yiSq_PQPizPLwVq7hA-hiBfzSPKMMCdTVciNCxgKrhD6I6T7vn6mYSZ0C_w3qUxt3EOBdkBEzlYe8MdyXWwiXvmF6QyhtRhiCVNHIx3jyC3rxerKKXxKDAO7KJGCC8YCCZC2ZXu6s1o-ue6_X_dXMVJYDS5epKRn-vTIcMGYbfJLQZs4hmckVEBTqR0nJ8nFkjRThPzm1rJDn7mHQWHfeXAIqomsiWuQ1sQ",
+        "current_country": null,
+        "product_owner_pv": 0,
+        "list_owner_pv": 0,
+        "page_views": 0,
+        "total_views": 0,
+        "draft_count": 0,
+        "product_draft_count": 0,
+        "discovery_draft_count": 0
+    },
+    "is_new_user": true
+}
+
+
+
+
+
+//////////////
+
+https://api-dev.superble.com/api/v1/sessions/sign_in/?email=mohit.tiwari2@techinfini.com&password=TechAdmin911
+email: mohit.tiwari2@techinfini.com
+password: TechAdmin911
+
+
+//////////////////////
+
+
+    var signupFormData = JSON.stringify({
+            first_name: 'Techinfini1',
+            last_name : 'test1',
+            user_name : 'techinfini9',
+            email     : 'mohit.tiwari9@techinfini.com',
+            password  : 'TechAdmin911',
+            imgFile   : 'cdn.shopify.com/s/files/1/2312/3313/products/Trio-Kit_SM_large.png',
+            public_id :'123',
+            phash     :'test',
+            device_id :'123',
+            referral_code :'321'
+    });
+
+    fetch('https://api-dev.superble.com/api/v1/sessions/', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: signupFormData
+    })
+    .then(response => response.json())
+    .then(responseData => {
+      alert(responseData.message)
+    })
+
+
+
+
+    loginAccount = () => {
+      var FName = 'mohit.tiwari9@techinfini.com';
+      var UPass = 'TechAdmin911';
+      alert(FName+"="+UPass);
+      var signinFormData = JSON.stringify({
+            email     : FName,
+            password  : UPass,
+      });
+      fetch(API + '/sessions/sign_in/', {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+          },
+          body: signinFormData
+      })
+      .then(response => response.json())
+      .then(responseData => {
+        if(responseData.message){
+          alert(responseData.message);
+        }else{
+          alert("User successfully loggedIn");
+          this.setState({loginAccount: false});
+        }
+      });
+
+
+
+
+
+
+      ///////////////////////////  home page
+
+      `/search is the api to hitSent on:7:40 pm
+This message was edited
+From:Himanshu 
+Goel and in query you need to pass thisFrom:Himanshu Goel 
+
+queries.put("categories", categoryNamesCSV);       
+ queries.put("page", page);      
+   queries.put("per_page", per_page);        
+   queries.put("source", "product");        
+   queries.put("data", null);
+
+   rom:Himanshu Goel and it include infinite scrolling
+Aisa kuchh
+
+https://api-dev.superble.com/api/v1/search?categories=all&page=1&per_page=5
+
+
+
+
+//////////////////// like on home page
+
+So in like we have 3 thingFrom:Himanshu Goel 
+1. like
+2. no like
+3. unlike
+
+From:Himanshu Goel 
+like 
+and no like is when you click on heart icon to like or no like it
+
+From:Himanshu Goel 
+and unlike is when you click on cross icon
+From:Himanshu Goel next to the heartOk
+
+Sent on:8:07 pmand what is the endpoint & parameters for it?This message was edited From:Himanshu Goel it is the post requestSent on:8:07 pm
+From:Himanshu Goel @POST("/products/{id}/likes"
+From:Himanshu Goel and in post request you have to send status=like if you click on heart and turns red
+From:Himanshu Goel and while unclicking it
+From:Himanshu Goel send status= nolike
+
+From:Himanshu Goel and when you click on unlike i.e the cross icon send status=unlike in post request
+
+From:Himanshu Goel and when you click on cross icon remove the product from the homepage
+
+From:Himanshu Goel it is like hiding that product from homescreen because user don't want to see itOk thanks
+
+
+
+
+///////////////////// 
+for searching the comment @GET("/search/question_search") and in query you need to pass text to searchexample /search/question_search?text=Helloto delete a comment use @DELETE("/products/{product_id}/questions/{question_id}")request is delete requestto update a comment use @PUT("/products/{product_id}/questions/{question_id}")and in body pass {text:"Hello"}to like a comment use @POST("/superbles/superble_question")and in query pass product_id;example /superbles/superble_question?product_id=2894and pass question_id tooexample /superbles/superble_question?product_id=2894&question_id=2884
+
+
+
+
+
+
+no need to pass user_id
+
+pass authentication token
+
+and to get related products there are three types
+
+1. Other from user
+2. Other from category 
+3. Other from brand
+
+So the request is @GET("/products/{product_id}/related_products")
+
+and in query you need to pass type parameter
+
+1. For user related product : /products/{product_id}/related_products?type=user_id
+
+2. For category related product : /products/{product_id}/related_products?type=category_id
+
+3. For brand related product : /products/{product_id}/related_products?type=brand_id
+
+

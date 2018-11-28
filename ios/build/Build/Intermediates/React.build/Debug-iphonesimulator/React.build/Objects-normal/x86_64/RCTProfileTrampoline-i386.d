@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/techinfini/Mohit/superble/node_modules/react-native/React/Profiler/RCTProfileTrampoline-i386.S \
+  /Users/techinfini/Mohit/superble/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/techinfini/Mohit/superble/node_modules/react-native/React/Profiler/RCTMacros.h
